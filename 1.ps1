@@ -4,7 +4,7 @@
     Write-verbose -verbose "Starting ..."
     if ($GoWrong) {
         write-host "Something bad happened"
-        throw "Failure message" ; RETURN
+        throw "Failure message" ; ###  RETURN  
     }
     else {
         Write-verbose -verbose "All OK So Far"
